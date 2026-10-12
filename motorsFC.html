@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Electrical Control Flashcards</title>
+    <title>Flash Card Terms</title>
     <style>
         :root {
             --bg-color: #f4f7f6;
@@ -27,7 +27,7 @@
 
         h1 {
             color: #2c3e50;
-            margin-bottom: 10px;
+            margin-bottom: 5px;
         }
 
         .category-title {
@@ -51,7 +51,7 @@
         .card {
             background-color: transparent;
             width: 100%;
-            height: 180px;
+            height: 200px;
             perspective: 1000px;
             cursor: pointer;
         }
@@ -102,134 +102,134 @@
         }
 
         .term {
-            font-size: 1.3rem;
+            font-size: 1.2rem;
             font-weight: bold;
             color: #2c3e50;
         }
 
         .hint {
+            position: absolute;
+            bottom: 10px;
             font-size: 0.75rem;
             color: #95a5a6;
-            margin-top: 10px;
         }
 
         .card-back {
             background-color: var(--card-back-bg);
             color: var(--text-back);
             transform: rotateY(180deg);
-            font-size: 1rem;
+            font-size: 0.95rem;
             line-height: 1.4;
         }
 
         .symbol {
             font-family: monospace;
-            font-size: 1.5rem;
+            font-size: 1.4rem;
             background: rgba(255,255,255,0.2);
-            padding: 5px 10px;
+            padding: 3px 8px;
             border-radius: 5px;
-            margin-top: 10px;
+            margin-top: 8px;
         }
     </style>
 </head>
 <body>
 
-    <h1>⚡ Electrical Controls Flashcards</h1>
-    <p>Click any card to flip it over and reveal the definition.</p>
+    <h1>⚡ Flash Card Terms</h1>
+    <p>Tap a card to flip it and reveal the details.</p>
 
     <!-- SECTION 1 -->
-    <h2 class="category-title">1. Electrical Fundamentals & Drawings</h2>
+    <h2 class="category-title">Section 1</h2>
     <div class="grid">
         <div class="card" onclick="this.classList.toggle('flipped')">
             <div class="card-inner">
-                <div class="card-front"><div class="card-id">1a</div><div class="term">Amperage</div><div class="hint">Click to flip</div></div>
+                <div class="card-front"><div class="card-id">1a</div><div class="term">Amperage</div><div class="hint">Tap to flip</div></div>
                 <div class="card-back">The measure of electrical current flow in a circuit (the rate of flow).</div>
             </div>
         </div>
         <div class="card" onclick="this.classList.toggle('flipped')">
             <div class="card-inner">
-                <div class="card-front"><div class="card-id">1b</div><div class="term">Voltage</div><div class="hint">Click to flip</div></div>
+                <div class="card-front"><div class="card-id">1b</div><div class="term">Voltage</div><div class="hint">Tap to flip</div></div>
                 <div class="card-back">The electrical pressure or potential difference that pushes current through a circuit.</div>
             </div>
         </div>
         <div class="card" onclick="this.classList.toggle('flipped')">
             <div class="card-inner">
-                <div class="card-front"><div class="card-id">1c</div><div class="term">Ohm's Law</div><div class="hint">Click to flip</div></div>
-                <div class="card-back">The formula (V = I × R) showing the relationship between Voltage, Current, and Resistance.</div>
+                <div class="card-front"><div class="card-id">1c</div><div class="term">Ohm's</div><div class="hint">Tap to flip</div></div>
+                <div class="card-back">Ohm's Law: The formula (V = I × R) showing the relationship between Voltage, Current, and Resistance.</div>
             </div>
         </div>
         <div class="card" onclick="this.classList.toggle('flipped')">
             <div class="card-inner">
-                <div class="card-front"><div class="card-id">1d</div><div class="term">Watts</div><div class="hint">Click to flip</div></div>
+                <div class="card-front"><div class="card-id">1d</div><div class="term">Watts</div><div class="hint">Tap to flip</div></div>
                 <div class="card-back">The unit of electrical power, calculated by multiplying voltage by amperage.</div>
             </div>
         </div>
         <div class="card" onclick="this.classList.toggle('flipped')">
             <div class="card-inner">
-                <div class="card-front"><div class="card-id">1e</div><div class="term">Schematics</div><div class="hint">Click to flip</div></div>
-                <div class="card-back">Technical drawings showing circuit layouts:<br><b>Ladder:</b> logic<br><b>Wiring:</b> physical paths<br><b>Pictorial:</b> component looks.</div>
+                <div class="card-front"><div class="card-id">1e</div><div class="term">Schematics (Ladder, Wiring, Pictorial). /‘</div><div class="hint">Tap to flip</div></div>
+                <div class="card-back">Technical diagrams: <b>Ladder</b> shows logic, <b>Wiring</b> shows physical connections, and <b>Pictorial</b> shows actual component appearances.</div>
             </div>
         </div>
     </div>
 
     <!-- SECTION 2 -->
-    <h2 class="category-title">2. Control Components & Symbols</h2>
+    <h2 class="category-title">Section 2</h2>
     <div class="grid">
         <div class="card" onclick="this.classList.toggle('flipped')">
             <div class="card-inner">
-                <div class="card-front"><div class="card-id">2a</div><div class="term">Auxiliary Contacts</div><div class="hint">Click to flip</div></div>
+                <div class="card-front"><div class="card-id">2a</div><div class="term">Auxiliary Contacts</div><div class="hint">Tap to flip</div></div>
                 <div class="card-back">Secondary contacts linked to a primary device used to control other parts of a circuit.</div>
             </div>
         </div>
         <div class="card" onclick="this.classList.toggle('flipped')">
             <div class="card-inner">
-                <div class="card-front"><div class="card-id">2b</div><div class="term">Relays / Control Relay</div><div class="hint">Click to flip</div></div>
+                <div class="card-front"><div class="card-id">2b</div><div class="term">Relays/Control Relay</div><div class="hint">Tap to flip</div></div>
                 <div class="card-back">An electromagnetic switch that uses a low-power signal to control a higher-power circuit.</div>
             </div>
         </div>
         <div class="card" onclick="this.classList.toggle('flipped')">
             <div class="card-inner">
-                <div class="card-front"><div class="card-id">2c</div><div class="term">Switches</div><div class="hint">Click to flip</div></div>
-                <div class="card-back">Sensing devices: <b>Float</b> (liquid), <b>Flow</b> (movement), <b>Limit</b> (position), and <b>Pressure</b> (force).</div>
+                <div class="card-front"><div class="card-id">2c</div><div class="term">Switch ( Float, Flow, Limit, Pressure)</div><div class="hint">Tap to flip</div></div>
+                <div class="card-back">Sensing mechanical variations: <b>Float</b> (liquid level), <b>Flow</b> (fluid movement), <b>Limit</b> (physical contact), and <b>Pressure</b> (force).</div>
             </div>
         </div>
         <div class="card" onclick="this.classList.toggle('flipped')">
             <div class="card-inner">
-                <div class="card-front"><div class="card-id">2d</div><div class="term">Electrical Symbols</div><div class="hint">Click to flip</div></div>
-                <div class="card-back">Standardized shapes and icons used on blueprints to represent specific electrical components.</div>
+                <div class="card-front"><div class="card-id">2d</div><div class="term">Electrical symbols</div><div class="hint">Tap to flip</div></div>
+                <div class="card-back">Standardized shapes and icons used on electrical prints to represent circuit components.</div>
             </div>
         </div>
         <div class="card" onclick="this.classList.toggle('flipped')">
             <div class="card-inner">
-                <div class="card-front"><div class="card-id">2e</div><div class="term">Solenoid</div><div class="hint">Click to flip</div></div>
+                <div class="card-front"><div class="card-id">2e</div><div class="term">Solenoid</div><div class="hint">Tap to flip</div></div>
                 <div class="card-back">An electromagnetic coil that converts electrical energy into linear mechanical motion.</div>
             </div>
         </div>
     </div>
 
     <!-- SECTION 3 -->
-    <h2 class="category-title">3. Circuit Operations & States</h2>
+    <h2 class="category-title">Section 3 (No New Definitions)</h2>
     <div class="grid">
         <div class="card" onclick="this.classList.toggle('flipped')">
             <div class="card-inner">
-                <div class="card-front"><div class="card-id">3a</div><div class="term">Control Circuit</div><div class="hint">Click to flip</div></div>
+                <div class="card-front"><div class="card-id">3a</div><div class="term">-Control Circuit</div><div class="hint">Tap to flip</div></div>
                 <div class="card-back">The low-current portion of an electrical system that regulates the operation of main power components.</div>
             </div>
         </div>
         <div class="card" onclick="this.classList.toggle('flipped')">
             <div class="card-inner">
-                <div class="card-front"><div class="card-id">3b</div><div class="term">Normally Open (NO)</div><div class="hint">Click to flip</div></div>
-                <div class="card-back">A contact that remains disconnected in its rest state and closes when activated. <div class="symbol">—┤ ├—</div></div>
+                <div class="card-front"><div class="card-id">3b</div><div class="term">-Normally Open (With Symbol)</div><div class="hint">Tap to flip</div></div>
+                <div class="card-back">A contact that stays open in its rest state and closes when energized.<div class="symbol">—┤ ├—</div></div>
             </div>
         </div>
         <div class="card" onclick="this.classList.toggle('flipped')">
             <div class="card-inner">
-                <div class="card-front"><div class="card-id">3c</div><div class="term">Normally Closed (NC)</div><div class="hint">Click to flip</div></div>
-                <div class="card-back">A contact that remains connected in its rest state and opens when activated. <div class="symbol">—┤/├—</div></div>
+                <div class="card-front"><div class="card-id">3c</div><div class="term">-Normally Closed (With Symbol)</div><div class="hint">Tap to flip</div></div>
+                <div class="card-back">A contact that stays closed in its rest state and opens when energized.<div class="symbol">—┤/├—</div></div>
             </div>
         </div>
         <div class="card" onclick="this.classList.toggle('flipped')">
             <div class="card-inner">
-                <div class="card-front"><div class="card-id">3d</div><div class="term">Motor</div><div class="hint">Click to flip</div></div>
+                <div class="card-front"><div class="card-id">3d</div><div class="term">Motor</div><div class="hint">Tap to flip</div></div>
                 <div class="card-back">An electrical machine that converts electrical energy into mechanical rotation.</div>
             </div>
-        </div>
